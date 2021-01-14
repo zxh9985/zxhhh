@@ -1,0 +1,362 @@
+.every {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 90px;
+  position: relative;
+}
+
+.header > .login {
+  overflow: hidden;
+  float: left;
+}
+
+.header > .login > img {
+  width: 170px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.header > h1 {
+  float: left;
+  color: #666;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: 'Microsoft YaHei';
+  font-weight: 500;
+}
+
+.header > .test {
+  color: #666;
+  font-size: 12px;
+  position: absolute;
+  right: 92px;
+  bottom: 15px;
+}
+
+.header > .test > img {
+  width: 18px;
+  height: 14px;
+  float: left;
+  margin-right: 5px;
+}
+
+.header > .test > span:hover {
+  cursor: pointer;
+  color: #e1251b;
+  border-bottom: 1px solid #e1251b;
+}
+
+.banner {
+   height: 445px;
+   background: #e93854;
+}
+
+.banner > .login {
+  height: 445px;
+  background: url(https://img11.360buyimg.com/da/jfs/t16363/164/2298198848/33213/870500f1/5aa68632Nd7790d0c.png) no-repeat center center; 
+}
+
+.banner > .login > .text {
+  width: 346px;
+  height: 360px;
+  background-color: #fff;
+  float: right;
+  margin-right: 90px;
+  margin-top: 8px;
+}
+
+.banner > .login > .text > .login-top {
+  width: 346px;
+  height: 54px;
+  border-bottom: 3px solid #f4f4f4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner > .login > .text > .login-top > .top-a {
+  font-size: 18px;
+  font-family: "microsoft yahei";
+  cursor: pointer;
+  color: #666;
+}
+
+.banner > .login > .text > .login-top > .top-a:hover {
+  font-weight: 700;
+  color: #e1251b;
+}
+
+.banner > .login > .text > .login-top > .top-b {
+  font-size: 18px;
+  font-family: "microsoft yahei";
+  color: #e1251b;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.a6 {
+  width: 38px;
+  height: 40px;
+  border: 1px solid #333;
+  cursor: pointer;
+  float: left;
+}
+
+.username {
+  float: left;
+} 
+
+.form-control {
+  width: 250px;
+  height: 38px;
+  border-left: none;
+  text-indent: 10px;
+}
+
+.col-sm-11 {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.not {
+  text-align: right;
+  margin-right: 23px;
+  margin-top: 20px;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 290px;
+  height: 33px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background: #e4393c;
+  border: 1px solid #e85356;
+  cursor: pointer;
+  color: #fff;
+  line-height: 33px;
+  font-size: 20px;
+  font-family: 'Microsoft YaHei';
+}
+
+.qq {
+  width: 306px;
+  height: 50px;
+  margin-top: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qq > .q1 {
+  width: 70px;
+  height: 50px;
+  float: left;
+}
+
+.qq > .q1 > img {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.qq > .q1 > span {
+  line-height: 50px;
+  margin-left: 3px;
+  color: #666;
+  border-right: 1px solid #666;
+  cursor: pointer;
+}
+
+.qq > .q1 > span:hover {
+  color: #e1251b;
+}
+
+
+.qq > .q2 {
+  width: 70px;
+  height: 50px;
+  float: left;
+}
+
+.qq > .q2 > img {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.qq > .q2 > span {
+  line-height: 50px;
+  margin-left: 3px;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.qq > .q2 > span:hover {
+  color: #e1251b;
+}
+
+.qq > .q3 {
+  width: 79px;
+  height: 50px;
+  color: #b61d1d;
+  font-size: 14px;
+  float: right;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.qq > .q3 > span:hover {
+  border-bottom: 1px solid #e1251b;
+}
+
+.know:hover {
+  color: #b61d1d;
+  border-bottom: 1px solid #b61d1d;
+}
+
+.footer {
+  height: 566px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.footer > .max {
+  height: 42px;
+  margin-top: 30px;
+}
+
+.footer > .max > ul > li {
+  float: left;
+  margin-left: 36px;
+}
+
+.footer > .max > ul > li > img {
+  width: 36px;
+  height: 42px;
+  float: left;
+  margin-left: 30px;
+}
+
+.footer > .max > ul > li > span {
+  line-height: 42px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #444;
+  margin-left: 10px;
+}
+
+.footer > .none {
+  height: 30px;
+  border-bottom: 1px solid #dedede;
+}
+
+.footer > .over {
+  height: 190px;
+  margin-top: 10px;
+  border-bottom: 1px solid #dedede;
+}
+
+.footer > .over > .help {
+  color: #666;
+  font-size: 12px;
+  width: 198px;
+  float: left;
+}
+
+.footer > .over > .help > ul {
+  margin-top: 5px;
+}
+
+.footer > .over > .help > ul > li {
+  height: 22px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #666;
+  font-size: 12px;
+}
+
+.footer > .over > .help > p {
+  height: 22px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #666;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.footer > .over > .help > h6 {
+  color: #666;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.footer > .over > .help > ul > li:hover {
+  color: #e1251b;
+}
+
+.footer > .over > .help h6:hover {
+  color: #e1251b;
+}
+
+.footer > .list-over > ul {
+  height: 18px;
+  display: flex;
+  justify-content: space-around;
+  color: #666;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.footer > .list-over > ul > li {
+  width: 76px;
+  font-size: 12px;
+  text-align: center;
+  border-right: 1px solid #dedede;
+}
+
+.footer > .list-over > ul > li > span:hover {
+  color: #e1251b;
+}
+
+.footer > .list-next1 {
+  height: 22px;
+}
+
+.footer > .list-next1 > ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer > .list-next1 > ul > li {
+  border-right: 1px solid #dedede;
+  color: #999;
+  font-size: 12px;
+}
+
+.footer > .list-next1 > ul > li > span:hover {
+  cursor: pointer;
+  color: #e1251b;
+}
+
+.footer > img {
+  width: 800px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
